@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nirvan1234.github.io/dynamicMultiFilter/static/css/main.fa2d76bc.css",
+    "main.js": "/nirvan1234.github.io/dynamicMultiFilter/static/js/main.a3b33ddc.js",
+    "static/js/787.fe1b4996.chunk.js": "/nirvan1234.github.io/dynamicMultiFilter/static/js/787.fe1b4996.chunk.js",
+    "index.html": "/nirvan1234.github.io/dynamicMultiFilter/index.html",
+    "main.fa2d76bc.css.map": "/nirvan1234.github.io/dynamicMultiFilter/static/css/main.fa2d76bc.css.map",
+    "main.a3b33ddc.js.map": "/nirvan1234.github.io/dynamicMultiFilter/static/js/main.a3b33ddc.js.map",
+    "787.fe1b4996.chunk.js.map": "/nirvan1234.github.io/dynamicMultiFilter/static/js/787.fe1b4996.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa2d76bc.css",
+    "static/js/main.a3b33ddc.js"
+  ]
+}
