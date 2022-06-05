@@ -1,0 +1,44 @@
+.sidenav{
+    height: 800px;
+    width: 250px;
+    background-color:rgb(93, 91, 91);
+    
+}
+.sidenav .heroImage{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sidebarList{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.sidebarList .row{
+ width: 100%;
+ height: 60px;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ color: white;
+ justify-content: center;
+ align-items: center;
+}
+
+.sidebarList .row #active{
+  background-color: blueviolet;
+   }
+
+.row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title{
+    flex: 70%;
+}

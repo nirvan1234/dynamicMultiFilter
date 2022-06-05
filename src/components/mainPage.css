@@ -1,0 +1,129 @@
+.form{
+  margin-top: 30px;
+  display: flex;
+}
+.form form input{
+  width: 900px;
+}
+
+.viewer table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid darkblue;
+  border-spacing: 1px;
+  font-family: 'Cairo', sans-serif;
+margin: auto;
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+
+.viewer table{
+  border-top: none;
+
+}
+
+.viewer table th {
+    border-top: 1px solid #c9c9c9;
+border-bottom: 1px solid #c9c9c9;
+}
+.viewer caption{
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+.viewer table tr {
+  border-top: 1px solid #c9c9c9;
+border-bottom: 1px solid #c9c9c9;
+}
+
+.viewer table thead {
+  font-weight: 700;
+  line-height: 18px;
+  color: #383838;
+}
+
+.pageNumbers{
+  list-style: none;
+  display: flex;
+}
+.pageNumbers li {
+  /* padding: 10px; */
+  /* border: 1px solid darkblue; */
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+
+}
+.pageNumbers li.active {
+  background-color:darkblue;
+  color:white;
+}
+.pageNumbers li button {
+  /* background-color: transparent; */
+  border: none;
+  color:darkblue;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: white;
+}
+.pageNumbers li button:hover {
+  background-color: white;
+  color:darkblue;
+}
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+
+/* .viewer{
+  background-color: #e4e4e4;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 15px;
+} */
+
+.employee-header  {
+  background-color:#f07238!important;
+  color:white;
+  padding: 15px 10px;
+  text-align: center;
+}
+th {
+  text-align:center;
+  border:none;
+  padding:15px
+
+}
+.employee-header tbody{
+  font-size: var(--fs-md);
+  line-height: 18px;
+  padding: 10px;
+}
+
+/* .employee-header {
+  margin-bottom: 2px;
+  margin-top: 10px;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 100%;
+} */
+.viewerButton button select{
+  background-color: #24a0ed;
+  border: none;
+}
+.viewerButton button {
+  background-color: #24a0ed;
+}
+
+.viewerButton  {
+  margin-bottom: 10px;
+  display: flex;
+}
